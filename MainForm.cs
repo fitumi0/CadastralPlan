@@ -191,5 +191,10 @@ namespace CadastralPlan
             var aboutForm = new AboutForm();
             aboutForm.ShowDialog();
         }
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
